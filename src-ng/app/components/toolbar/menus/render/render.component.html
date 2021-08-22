@@ -1,0 +1,18 @@
+<button mat-button [matMenuTriggerFor]="toolbarFileMenu" aria-label="File menu toggle">
+  Render
+</button>
+
+<mat-menu #toolbarFileMenu="matMenu">
+  <button mat-menu-item>
+    new
+  </button>
+  <button mat-menu-item>
+    open
+  </button>
+  <button mat-menu-item>
+    save
+  </button>
+  <button mat-menu-item>
+    save as
+  </button>
+</mat-menu>
