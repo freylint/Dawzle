@@ -14,14 +14,14 @@ import { MatDividerModule } from '@angular/material/divider';
 import { AppComponent } from './app.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
 import { HomeComponent } from './pages/home/home.component';
-import { ProjectComponents } from './components/components.module';
+import { ToolbarComponent } from './components/toolbar/toolbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProjectsComponent,
     HomeComponent,
-    ProjectComponents.components[0],
+    ToolbarComponent
   ],
   imports: [
     // Angular Moduels
